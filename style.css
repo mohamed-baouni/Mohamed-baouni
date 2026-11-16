@@ -209,3 +209,8 @@ html, body {
 .feature-icon .ui-icon{animation:icon-pulse 3.5s ease-in-out infinite}
 @media(max-width:760px){.site-header{padding:10px 17px}.brand img{width:48px;height:48px}.hero{padding:48px 20px 65px}.hero h1{font-size:54px}.section{padding:66px 20px}.text-panel{padding:22px}.section-heading h2{font-size:31px}.degree-card,.program-grid article{border-radius:18px}.contact-section{padding:45px 22px}}
 @media(prefers-reduced-motion:reduce){.ui-icon,.feature-icon .ui-icon{animation:none!important}}
+h1, h2, h3, h4, h5, h6,
+p, span, a, button, input,
+textarea, select, label, li {
+    font-family: "Thmanyah Sans", sans-serif !important;
+}
