@@ -176,7 +176,9 @@ a, button, .feature-icon, .degree-card, .program-grid article,
 @font-face{font-family:"Thmanyah Sans";src:url("fonts/ThmanyahSans-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
 @font-face{font-family:"Thmanyah Sans";src:url("fonts/ThmanyahSans-Black.woff2") format("woff2");font-weight:900;font-display:swap}
 html{scroll-padding-top:105px}
-body{font-family:"Thmanyah Sans","Noto Sans Arabic",Tahoma,Arial,sans-serif;background:var(--paper);color:var(--ink);letter-spacing:0;}
+html, body {
+    font-family: "Thmanyah Sans", sans-serif !important;
+},"Noto Sans Arabic",Tahoma,Arial,sans-serif;background:var(--paper);color:var(--ink);letter-spacing:0;}
 .site-header{min-height:88px;padding:13px clamp(18px,6vw,100px);background:rgba(253,255,253,.88);backdrop-filter:blur(20px) saturate(160%);-webkit-backdrop-filter:blur(20px) saturate(160%);border-bottom:1px solid rgba(200,169,106,.23);box-shadow:0 8px 35px rgba(8,55,34,.045)}
 .brand{gap:13px}.brand img{width:58px;height:58px;padding:5px;border-radius:16px;background:#fff;box-shadow:0 7px 24px #0b5b3520;border:1px solid #e8ddc7}.brand strong{font-size:20px;letter-spacing:-.5px;color:var(--green-950)}.brand small{letter-spacing:.5px;color:#8d7950}
 .nav{gap:clamp(9px,1.3vw,20px);font-size:12px;font-weight:700}.nav a{padding:9px 2px;color:#375443}.nav a:hover{color:var(--green-700)}
